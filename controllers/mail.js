@@ -1,4 +1,4 @@
-var mailgun = require('mailgun-js')({apiKey: process.env.MAILGUN_API_KEY, domain: 'chillisoftware.net'});
+var mailgun = require('mailgun-js')({apiKey: "dfsf", domain: 'chillisoftware.net'});
 
 var mailController = function(mailgun) {
     var self = this;

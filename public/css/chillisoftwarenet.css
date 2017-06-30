@@ -152,9 +152,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
   color: #f91515;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
-  float: none;
-  position: relative;
-  top: 4px;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -162,8 +159,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand.active {
   color: #d60505;
 }
-.logo {
+.navbar-default .navbar-brand .logo {
   display: inline;
+  height: 40px;
 }
 .navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
